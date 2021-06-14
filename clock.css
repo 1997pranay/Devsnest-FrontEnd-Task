@@ -1,0 +1,55 @@
+body{
+    background-color:#c4fcef;
+  }
+  
+  .circle{
+    width: 400px;
+    height:400px;
+    background-color: #ff9671;
+    border: 40px solid #4e8397;
+    border-radius:50%;
+  }
+  
+  .wrapper{  
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+  }
+  
+  .hour{
+    position: absolute;
+    height: 20%;
+    width: 1.5%;
+    background-color: #936c00;
+    transform : translate(0px,-85px);
+  }
+  
+  .minutes{
+    position: absolute;
+    height: 30%;
+    width: 1%;
+    background-color: #030045;
+    transform : translate(0px,-110px)
+                 rotate(90deg);
+    transform-origin: bottom;
+  }
+  
+  .seconds{
+    position: absolute;
+    height: 30%;
+    width: 1%;
+    background-color: #fefedf;
+    transform : translate(0px,-110px)
+                 rotate(180deg);
+    transform-origin: bottom;
+  }
+  
+  .center{
+    position:absolute;
+    height: 14px;
+    width:14px;
+    border-radius:50%;
+    background-color: brown;
+    bottom : 51%;
+  }
