@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="calculator.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>SIMPLE CALCULATOR</h2>
+        <form>
+            <label for="Firstno">First Number:</label><br>
+            <input type="text" id="Firstno" name="Firstno" required><br>
+            <label for="Secondno">Second Number:</label><br>
+            <input type="text" id="Secondno" name="Secondno" required><br><br>
+        </form>
+        <div class="buttons">
+            <button type="button" id="1" onclick="calculate(this.id)">ADD(+)</button>
+            <button type="button" id="2" onclick="calculate(this.id)">SUBSTRACT(-)</button>
+            <button type="button" id="3" onclick="calculate(this.id)">MULTIPLY(*)</button>
+            <button type="button" id="4" onclick="calculate(this.id)">DIVIDE(/)</button>
+        </div>
+        <br>
+        <div class="result">
+            <label for="result">Result:</label><br>
+            <input type="text" id="result" name="result">
+        </div>
+    </div>
+
+</body>
+
+</html>
