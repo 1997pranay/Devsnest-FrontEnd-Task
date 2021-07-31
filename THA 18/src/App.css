@@ -1,0 +1,18 @@
+.App{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.chessBoard{
+  width: 160px;
+  height: 160px;
+  display: grid;
+  grid-template-columns: repeat(8,20px);
+  border: 10px solid black;
+
+}
