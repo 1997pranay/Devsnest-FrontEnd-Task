@@ -1,0 +1,47 @@
+.App{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Card{
+    height: 50%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: black; */
+    /* border: 2px solid; */
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px;
+}
+.Card img{
+    height: 90%;
+    width: 90%;
+}
+
+
+
+.board {
+    height: 200px;
+    width: 200px;
+    padding:2px;
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    border: 10px solid black;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.row:nth-child(even) .box:nth-child(odd) {
+    background-color: black;
+}
+
+.row:nth-child(odd) .box:nth-child(even) {
+    background-color: black;
+}
+
