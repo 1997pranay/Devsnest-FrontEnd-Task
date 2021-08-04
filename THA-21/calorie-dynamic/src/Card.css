@@ -1,0 +1,107 @@
+  img {
+    width: 150px;
+  }
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: pink;
+    margin-left: 25px;
+  }
+  .card {
+    position: relative;
+    width: 50%;
+    height: 25%;
+    min-width: 450px;
+    min-height: 200px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0 10 4px 2px rgba(0, 0, 0, 0.4);
+    padding-bottom: 10px;
+    animation: cardGrow 500ms;
+  }
+  
+  .card p {
+    font-size: 1.25rem;
+    animation: cardGrow 500ms;
+    padding: 10px;
+  }
+  .card h2 {
+    animation: cardGrow 500ms;
+  }
+  .green {
+    border-radius: 25px;
+    background-color: orange;
+    color: white;
+  }
+  .warning {
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+  }
+  .delete-btn,
+  .edit-btn {
+    width: 80px;
+    height: 50px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    animation: cardGrow 500ms;
+  }
+  .delete-btn:hover,
+  .edit-btn:hover {
+    transform: scale(1.1);
+    transition: 250ms ease-in;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    background-color: brown;
+  }
+  .edit-btn {
+    background-color: cadetblue;
+  }
+  
+  @keyframes cardGrow {
+    10% {
+      transform: scale(0.1);
+    }
+    20% {
+      transform: scale(0.2);
+    }
+    30% {
+      transform: scale(0.3);
+    }
+    40% {
+      transform: scale(0.4);
+    }
+    50% {
+      transform: scale(0.5);
+    }
+    60% {
+      transform: scale(0.6);
+    }
+    70% {
+      transform: scale(0.7);
+    }
+    80% {
+      transform: scale(0.8);
+    }
+    90% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .random {
+    background-color: transparent;
+    animation: cardGrow 500ms;
+  }

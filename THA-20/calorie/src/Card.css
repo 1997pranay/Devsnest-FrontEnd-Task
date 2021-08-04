@@ -1,0 +1,21 @@
+.card {
+    background-color: white;
+    color: #282c34;
+    border-radius: 2px;
+    padding: 0.5rem;
+    margin: 1rem;
+    box-shadow: 10px 3px 3px #111;
+  }
+
+  .delete-btn {
+    
+    border: none;
+    
+    border-radius: 6px;
+    background-color: rgb(98, 251, 27);
+  }
+  .delete-btn:hover {
+    transform: scale(1.1);
+    transition: 250ms ease-in;
+    cursor: pointer;
+  }
