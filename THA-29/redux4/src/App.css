@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.card{
+  border: 1px solid;
+  margin: 3% 35% 0% 35%;
+  padding: 10px;
+}
+.row{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /*it works fine*/
+  margin-top: 10%;
+}
+.data{
+  
+}
+span{
+  font-size: x-small;
+}
+.cityName{
+  font-size: x-large;
+}
+.temp{
+  font-size: xxx-large;
+  position: relative;
+  left:8px;
+}
+.col{
+  font-size: medium;
+}
